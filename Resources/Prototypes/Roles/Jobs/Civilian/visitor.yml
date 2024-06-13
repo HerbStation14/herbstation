@@ -5,7 +5,6 @@
   playTimeTracker: JobVisitor
   canBeAntag: false
   icon: JobIconVisitor
-  setPreference: false
   overrideConsoleVisibility: true
   access:
   - Maintenance
