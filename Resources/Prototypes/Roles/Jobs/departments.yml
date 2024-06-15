@@ -81,6 +81,8 @@
   - SecurityOfficer
   - Detective
   - Warden
+  # Herbstation stuff
+  - Prisoner
 
 - type: department
   id: Science
