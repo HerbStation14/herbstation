@@ -1,0 +1,19 @@
+- type: job
+  id: CCInspector
+  name: job-name-ccinspector
+  description: job-description-ccinspector
+  playTimeTracker: JobCCInspector
+  startingGear: PrisonerGear
+  icon: "JobIconNanotrasen"
+  joinNotifyCrew: true
+  requireAdminNotify: true
+  OverrideConsoleVisibility: false
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  Whitelisted: true
