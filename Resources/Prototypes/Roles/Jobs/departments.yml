@@ -82,6 +82,7 @@
   - Detective
   - Warden
   # Herbstation stuff
+  - Brigmedic
   - Prisoner
 
 - type: department
@@ -104,3 +105,13 @@
   - Zookeeper
   - Psychologist
   primary: false
+  
+ - type: department
+   id: Centcom
+   description: "placeholder"
+   color: "#009100"
+   weight: 20
+   roles:
+   - CCInspector
+   primary: false
+   
