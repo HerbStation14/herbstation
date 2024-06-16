@@ -1,2 +1,5 @@
 - type: playTimeTracker
   id: JobPrisoner
+
+  - type: playTimeTracker
+  id: JobBrigmedic
