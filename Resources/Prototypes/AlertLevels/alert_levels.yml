@@ -70,3 +70,15 @@
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
       shuttleTime: 1200
+    schmungus:
+      announcement: Shmungus
+      selectable: false
+      sound:
+        path: /Audio/Misc/epsilon.ogg
+        params:
+          volume: -2
+      disableSelection: true
+      color: Cyan
+      emergencyLightColor: Cyan
+      forceEnableEmergencyLights: true
+      shuttleTime: 1200
