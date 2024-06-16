@@ -1,0 +1,16 @@
+- type: job
+  id: BrigMedic
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigmedic
+  requirements:
+  - !type:RoleTimeRequirement
+    role: JobMedicalDoctor
+    time: 10800
+ - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 10800
+    
+  startingGear: BrigmedicGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
