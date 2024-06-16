@@ -1,5 +1,8 @@
 - type: playTimeTracker
   id: JobPrisoner
-
-  - type: playTimeTracker
+  
+- type: playTimeTracker
   id: JobBrigmedic
+
+- type: playTimeTracker
+  id: JobCCInspector
